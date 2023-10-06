@@ -47,6 +47,7 @@ def send_balance_message():
     if balance > 100 and not balance_message_sent:  # Проверяем баланс и флаг
         message = f"Баланс {token_name}: {balance}"
         bot.send_message(garikID, message)
+        bot.send_message(KulishID, message)
         balance_message_sent = True  # Устанавливаем флаг в True после отправки сообщения
         if balance < 100:
         	balance_message_sent = False  # Сбрасываем флаг, если баланс меньше 100
