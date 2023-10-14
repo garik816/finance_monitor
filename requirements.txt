@@ -1,0 +1,15 @@
+APScheduler
+certifi
+charset-normalizer
+idna
+pyTelegramBotAPI
+pytz
+requests
+six
+telebot
+tzdata
+tzlocal
+urllib3
+django
+gunicorn
+django-heroku
